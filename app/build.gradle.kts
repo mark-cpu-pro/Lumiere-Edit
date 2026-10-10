@@ -9,8 +9,8 @@ android {
         applicationId = "com.lumifont.app"
         minSdk = 29
         targetSdk = 34
-        versionCode = 1
-        versionName = "0.1"
+        versionCode = 2
+        versionName = "0.2"
     }
     buildFeatures { compose = true }
     composeOptions { kotlinCompilerExtensionVersion = "1.5.14" }
@@ -26,5 +26,7 @@ dependencies {
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.foundation:foundation")
     implementation("androidx.compose.material3:material3")
+    implementation("androidx.compose.material:material-icons-extended")
+    implementation("androidx.compose.animation:animation")
     implementation("androidx.core:core-ktx:1.13.1")
 }
